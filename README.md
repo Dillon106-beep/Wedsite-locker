@@ -24,3 +24,14 @@ Menu: Displays all baked goods n organized categories like cakes, bread, pastrie
 Order now: With ordering customers will select what they want to order and add it to the cart and pay by logging in their personal information and banking details to make the transaction, then there will be delivery services that will get your baked goods to your house, workplace or where ever.
 
 Contact: There will be the bakery's contact details for orders, any complaints on the business, service received from the employees and comments on the food and drinks  
+
+# Timeline and Milestone
+Aug 5-10: Planning and Design
+
+Aug 11-20: Homepage and Aboutus Developmnt
+
+Aug 21-31: Menu and Order Page
+
+Sep 1-10: Contact Page and Linking
+
+Sep 11-18: Testing Final Submission
