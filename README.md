@@ -42,3 +42,14 @@ With part 1 in this assignment, we were needed to create or make research on a b
 # Part 2 Details
 With part 2 we had to add CSS to the website. putting more color pictures and information on the website to make it look mor presentable
 
+# Site Map
+Homepage: <img width="1325" height="611" alt="image" src="https://github.com/user-attachments/assets/ae6affca-4adf-4fd9-b276-fe3ca10bd428" />
+
+About us:<img width="1330" height="551" alt="image" src="https://github.com/user-attachments/assets/e4a041de-bbce-42a4-9720-057f17607f77" />
+
+Menu: <img width="1262" height="620" alt="image" src="https://github.com/user-attachments/assets/124cab27-e4b2-4e02-b4c8-c1aa34e814ba" />
+      <img width="1248" height="610" alt="image" src="https://github.com/user-attachments/assets/4ebc0347-af78-4f06-b6b2-43e9bf8f6ff8" />
+
+Order Page: <img width="1309" height="618" alt="image" src="https://github.com/user-attachments/assets/0e1ae769-d48a-41b6-8766-c72c80fb7855" />
+
+Contzt Page: <img width="1333" height="639" alt="image" src="https://github.com/user-attachments/assets/9447d745-79a7-4628-8f29-461e2abd5f7c" />
