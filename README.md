@@ -53,3 +53,16 @@ Menu: <img width="1262" height="620" alt="image" src="https://github.com/user-at
 Order Page: <img width="1309" height="618" alt="image" src="https://github.com/user-attachments/assets/0e1ae769-d48a-41b6-8766-c72c80fb7855" />
 
 Contzt Page: <img width="1333" height="639" alt="image" src="https://github.com/user-attachments/assets/9447d745-79a7-4628-8f29-461e2abd5f7c" />
+
+# Reference List
+Easy Chef Ideas (2025) The best no-knead bread recipe: Rustic hearth loaf. Available at: (Accessed: 18 September 2026).
+
+Easy World Recipes (2025) The best authentic French croissant recipe. Available at: https://easyworldrecipes.com/french-croissant/ (Accessed: 18 September 2026).
+
+Harvard Medical School (n.d.) *Websites*. Available at: [https://identityguide.hms.harvard.edu/multimedia/websites](https://identityguide.hms.harvard.edu/multimedia/websites) (Accessed: 18 September 2026).
+
+Scribbr (2022) *Reference a website in Harvard style*. Available at: [https://www.scribbr.co.uk/referencing/harvard-website-reference/](https://www.scribbr.co.uk/referencing/harvard-website-reference/) (Accessed: 18 September 2026).
+
+Swinburne University of Technology (n.d.) *Harvard style guide*. Available at: [https://www.swinburne.edu.au/library/search/referencing-guides/harvard-style-guide/](https://www.swinburne.edu.au/library/search/referencing-guides/harvard-style-guide/) (Accessed: 18 September 2026).
+
+World Wide Web Consortium (W3C) (2000) *HTML techniques for web content accessibility guidelines*. Available at: [https://www.w3.org/TR/WCAG10-HTML-TECHS/](https://www.w3.org/TR/WCAG10-HTML-TECHS/) (Accessed: 18 September 2026).
