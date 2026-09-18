@@ -35,3 +35,10 @@ Aug 21-31: Menu and Order Page
 Sep 1-10: Contact Page and Linking
 
 Sep 11-18: Testing Final Submission
+
+# Part 1 Details
+With part 1 in this assignment, we were needed to create or make research on a business that has no website or a business with a bad website and make a better website  
+
+# Part 2 Details
+With part 2 we had to add CSS to the website. putting more color pictures and information on the website to make it look mor presentable
+
