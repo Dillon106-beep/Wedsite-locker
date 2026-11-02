@@ -1,6 +1,7 @@
    ,<!DOCTYPE html>
 <html>
     <head>
+        <meta name="referrer" content="strict-origin-when-cross-origin">
         <title>Dillon's Bakery</title>
         <link rel="stylesheet" href="css/style.css">
         <script src="script.js"></script>
@@ -62,11 +63,11 @@
 
         <div class="socials-row">
             <a class="social-link" href="https://www.instagram.com/grabbers_bakery/" target="_blank">
-                <img src="img/instagram.png" alt="">
+                <img src="../root/images/instagram picture.webp" alt="Instagram">
                 Instagram
             </a>
             <a class="social-link" href="https://www.tiktok.com/@grabbers_bakery" target="_blank">
-                <img src="img/tiktok.png" alt="">
+                <img src="../root/images/tiktok-icon-free-png.webp" alt="TikTok">
                 TikTok
             </a>
         </div>
@@ -104,7 +105,7 @@
                 </div>
                 <div>
                     <h4>Socials</h4>
-                    <a href="https://www.instagram.com/grabbers_bakery/" target="_blank">Instagram</a>
+                    <a href="https://www.instagram.com/Dillon's_bakery/" target="_blank">Instagram</a>
                     <a href="https://www.tiktok.com/@grabbers_bakery" target="_blank">TikTok</a>
                 </div>
             </div>
@@ -112,5 +113,66 @@
                 Copyright © 2026 Dillon's Bakery| Rights reserved | by Dillon &middot; <a href="assets/contact.html">Contact us</a>
             </div>
         </footer>
+<!--Lightbox overlay-->
+<div class="lightbox" id="lightbox" aria-hidden="true"  role="dialog" aria-modal="true" aria-label="Image preview">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close preview">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#10094;</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next image">&#10095;</button>
+    <figure class="lightbox-figure">
+    <img id="lightboxImg" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+    </figure>
+</div>
+
+<script src="js/java script.js"></script>
+
+<!-- ===== Cart button (floating) ===== -->
+<button class="cart-toggle" id="cartToggle" aria-label="Open cart" aria-expanded="false">
+  <span class="cart-icon">🛒</span>
+  <span class="cart-count" id="cartCount">0</span>
+</button>
+
+<!-- ===== Cart drawer ===== -->
+<div class="cart-drawer" id="cartDrawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Shopping cart">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+  </div>
+
+  <div class="cart-items" id="cartItems">
+    <p class="cart-empty" id="cartEmpty">Your cart is empty. Add something delicious!</p>
+  </div>
+
+  <div class="cart-footer">
+    <div class="cart-total-row">
+      <span>Total</span>
+      <span id="cartTotal">R0.00</span>
+    </div>
+    <a href="assets/enquiry.html" class="btn cart-checkout" id="cartCheckout">Proceed to Order</a>
+    <button class="cart-clear" id="cartClear">Clear cart</button>
+  </div>
+</div>
+
+<title>Dillon's Bakery | Fresh Bread, Pastries & Cakes Delivered Warm</title>
+<meta name="description" content="Dillon's Bakery bakes fresh sourdough, croissants, cakes and pastries every morning and delivers them warm to your door. Order online today.">
+<meta name="keywords" content="bakery, fresh bread, sourdough, croissants, cakes, pastries, bakery delivery, Dillon's Bakery, order cakes online">
+<meta name="author" content="Dillon's Bakery">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://www.dillonsbakery.co.za/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Dillon's Bakery">
+<meta property="og:title" content="Dillon's Bakery | Fresh Bakes, Delivered Warm">
+<meta property="og:description" content="From crusty sourdough to rich chocolate cake — everything is baked fresh and brought straight to your door.">
+<meta property="og:url" content="https://www.dillonsbakery.co.za/">
+<meta property="og:image" content="https://www.dillonsbakery.co.za/images/business logo.png">
+<meta property="og:image:alt" content="Dillon's Bakery logo">
+<meta property="og:locale" content="en_ZA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dillon's Bakery | Fresh Bakes, Delivered Warm">
+<meta name="twitter:description" content="Fresh sourdough, croissants, cakes and pastries — baked daily and delivered to your door.">
+<meta name="twitter:image" content="https://www.dillonsbakery.co.za/images/business logo.png">
+<meta name="theme-color" content="#2E1D12">
+
+<div class="cart-backdrop" id="cartBackdrop" hidden></div>
     </body>
 </html>

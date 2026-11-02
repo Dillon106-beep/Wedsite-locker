@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Primary SEO -->
+        <title>Order Now | Place a Bakery Order Online — Dillon's Bakery</title>
+        <meta name="description" content="Place your bakery order online with Dillon's Bakery. Choose your breads, pastries, cakes and drinks — we bake fresh and deliver to your door.">
+        <meta name="keywords" content="order bakery online, bakery delivery, order cake online, order bread delivery, Dillon's Bakery order">
+        <meta name="author" content="Dillon's Bakery">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://www.dillonsbakery.co.za/assets/enquiry.html">
+        
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dillon's Bakery">
+        <meta property="og:title" content="Order Now | Dillon's Bakery">
+        <meta property="og:description" content="Ready to place an order? Fill in your details and we'll bake it fresh and deliver it warm.">
+        <meta property="og:url" content="https://www.dillonsbakery.co.za/assets/enquiry.html">
+        <meta property="og:image" content="https://www.dillonsbakery.co.za/images/business logo.png">
+        <meta property="og:image:alt" content="Dillon's Bakery logo">
+        <meta property="og:locale" content="en_ZA">
+        
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Order Now | Dillon's Bakery">
+        <meta name="twitter:description" content="Place your bakery order online — fresh bakes delivered to your door.">
+        <meta name="twitter:image" content="https://www.dillonsbakery.co.za/images/business logo.png">
+        <meta name="theme-color" content="#2E1D12">
+
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../javascript/script.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <a href="../index.html" class="brand">
+                <img src="../images/bakery logo.png" alt="Dillon's Bakery">
+                <h1>Dillon's Bakery</h1>
+            </a>
+            <nav class="primary-nav">
+                <a href="../index.html">Homepage</a>
+                <a href="about.html">About us</a>
+                <a href="services.html">Menu</a>
+                <a href="enquiry.html" class="active">Order Now</a>
+                <a href="contact.html">Contact us</a>
+            </nav>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="mobile-nav" id="mobileNav">
+                <a href="../index.html">Homepage</a>
+                <a href="about.html">About us</a>
+                <a href="services.html">Menu</a>
+                <a href="enquiry.html" class="active">Order Now</a>
+                <a href="contact.html">Contact us</a>
+            </nav>
+        </header>
+
+        <div class="section-intro">
+            <h2>Ready to place an order?</h2>
+            <hr>
+        </div>
+
+        <div class="order-wrap">
+            <!-- FormSubmit integration -->
+            <form class="order-form" action="https://formsubmit.co/dillonmthobi2@gmail.com" method="POST">
+                
+                <!-- Hidden settings for FormSubmit -->
+                <input type="hidden" name="_subject" value="New Order Placed - Dillon's Bakery">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+
+                <label for="address">Delivery Address</label>
+                <input type="text" id="address" name="address" placeholder="Enter your delivery address" required>
+
+                <label for="orderDetails">Order Details</label>
+                <textarea id="orderDetails" name="orderDetails" rows="4" placeholder="List the items and quantities you'd like to order (e.g. 2x Croissant, 1x Chocolate Cake Slice)" required></textarea>
+
+                <label for="deliveryDate">Preferred Delivery Date</label>
+                <input type="date" id="deliveryDate" name="deliveryDate">
+
+                <label for="instructions">Special Instructions</label>
+                <textarea id="instructions" name="instructions" rows="3" placeholder="Any allergies, delivery notes, or requests?"></textarea>
+
+                <button type="submit" class="btn">Place Order</button>
+            </form>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-bottom">
+                Copyright © 2026 Dillon's Bakery | Rights reserved | by Dillon &middot; <a href="contact.html">Contact us</a>
+            </div>
+        </footer>
+
+        <!-- Cart Elements -->
+        <button class="cart-toggle" id="cartToggle" aria-label="Open cart" aria-expanded="false">
+            <span class="cart-icon">🛒</span>
+            <span class="cart-count hidden" id="cartCount">0</span>
+        </button>
+
+        <div class="cart-drawer" id="cartDrawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Shopping cart">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <p class="cart-empty">Your cart is empty. Add something delicious!</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total-row">
+                    <span>Total</span>
+                    <span id="cartTotal">R0.00</span>
+                </div>
+                <a href="enquiry.html" class="btn cart-checkout" id="cartCheckout">Proceed to Order</a>
+                <button class="cart-clear" id="cartClear">Clear cart</button>
+            </div>
+        </div>
+        <div class="cart-backdrop" id="cartBackdrop" hidden></div>
+
+    </body>
+</html>

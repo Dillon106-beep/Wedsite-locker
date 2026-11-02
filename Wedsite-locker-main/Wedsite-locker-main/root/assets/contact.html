@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
+
+        <!-- Primary SEO -->
+        <title>Contact Us | Dillon's Bakery — Phone, Email & Location</title>
+        <meta name="description" content="Get in touch with Dillon's Bakery. Call 076 315 5514 to place an order, 073 511 5661 for customer service, or find us at Rosebank Mall, Johannesburg.">
+        <meta name="keywords" content="contact Dillon's Bakery, bakery phone number, bakery email, bakery location, bakery near me, Dillon's Bakery address, Rosebank Mall bakery">
+        <meta name="author" content="Dillon's Bakery">
+        <meta name="robots" content="index, follow">
+        <link rel="canonical" href="https://www.dillonsbakery.co.za/assets/contact.html">
+        
+        <!-- Open Graph -->
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Dillon's Bakery">
+        <meta property="og:title" content="Contact Us | Dillon's Bakery">
+        <meta property="og:description" content="Call, email or visit us at Rosebank Mall — here's how to get in touch with Dillon's Bakery.">
+        <meta property="og:url" content="https://www.dillonsbakery.co.za/assets/contact.html">
+        <meta property="og:image" content="https://www.dillonsbakery.co.za/images/business logo.png">
+        <meta property="og:image:alt" content="Dillon's Bakery logo">
+        <meta property="og:locale" content="en_ZA">
+        
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Contact Us | Dillon's Bakery">
+        <meta name="twitter:description" content="Phone, email, map and contact form — get in touch with Dillon's Bakery.">
+        <meta name="twitter:image" content="https://www.dillonsbakery.co.za/images/business logo.png">
+        <meta name="theme-color" content="#2E1D12">
+
+        <link rel="stylesheet" href="../css/style.css">
+
+        <!-- Leaflet core CSS + JS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+        <!-- Main Script (Hamburger & Cart) -->
+        <script src="../javascript/script.js" defer></script>
+    </head>
+    <body>
+        <header class="site-header">
+            <a href="../index.html" class="brand">
+                <img src="../images/bakery logo.png" alt="Dillon's Bakery">
+                <h1>Dillon's Bakery</h1>
+            </a>
+            <nav class="primary-nav">
+                <a href="../index.html">Homepage</a>
+                <a href="about.html">About us</a>
+                <a href="services.html">Menu</a>
+                <a href="enquiry.html">Order Now</a>
+                <a href="contact.html" class="active">Contact us</a>
+            </nav>
+
+            <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="mobile-nav" id="mobileNav">
+                <a href="../index.html">Homepage</a>
+                <a href="about.html">About us</a>
+                <a href="services.html">Menu</a>
+                <a href="enquiry.html">Order Now</a>
+                <a href="contact.html" class="active">Contact us</a>
+            </nav>
+        </header>
+
+        <div class="section-intro">
+            <h2>Get in touch</h2>
+            <hr>
+        </div>
+
+        <div class="contact-wrap">
+            <!-- Contact Info Card with Email Form -->
+            <div class="contact-card">
+                <h3>Contact Information</h3>
+                <p>Below is our contact information where you can place orders or talk to customer service.</p>
+                <ul class="contact-list">
+                    <li><span>Place an order</span>076 315 5514</li>
+                    <li><span>Customer Service</span>073 511 5661</li>
+                    <li><span>Email</span>dillonsbakery11@gmail.com</li>
+                </ul>
+                
+                <div>
+                    <b>Or leave your number and we'll contact you</b>
+                    <!-- FormSubmit integration -->
+                    <form action="https://formsubmit.co/dillonmthobi2@gmail.com" method="POST" style="margin-top: 12px;">
+                        <!-- Hidden settings for FormSubmit -->
+                        <input type="hidden" name="_subject" value="New Callback Request - Dillon's Bakery">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+
+                        <div class="callback-input">
+                            <input type="tel" name="phone" placeholder="Enter your phone number" required>
+                            <button type="submit" class="btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Leaflet Map Card -->
+            <div class="contact-card map-card">
+                <h3>Visit Us</h3>
+                <p>Come find us at Rosebank Mall.</p>
+                <div id="route-map" style="width: 100%; height: 400px; border-radius: 4px; z-index: 1;"></div>
+            </div>
+        </div>
+
+        <!-- Google Form Section -->
+        <section class="form-section">
+            <div class="section-intro">
+                <h2>Send us a message</h2>
+                <hr>
+            </div>
+            <div class="form-embed">
+                <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSfzhrAj0fu0o1NKunh3_7zcI_fRD8p_Yq3LDiLZM8KZAkMTwg/viewform?embedded=true"
+                    title="Dillon's Bakery contact form"
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    loading="lazy">
+                    Loading…
+                </iframe>
+            </div>
+        </section>
+
+        <div class="socials-row">
+            <a class="social-link" href="https://www.instagram.com/grabbers_bakery/" target="_blank">
+                <img src="../images/instagram.png" alt="Instagram">
+                Instagram
+            </a>
+            <a class="social-link" href="https://www.tiktok.com/@grabbers_bakery" target="_blank">
+                <img src="../images/tiktok.png" alt="TikTok">
+                TikTok
+            </a>
+        </div>
+
+        <footer class="site-footer">
+            <div class="footer-bottom">
+                Copyright © 2026 Dillon's Bakery | Rights reserved | by Dillon &middot; <a href="about.html">About us</a>
+            </div>
+        </footer>
+
+        <!-- Cart Elements -->
+        <button class="cart-toggle" id="cartToggle" aria-label="Open cart" aria-expanded="false">
+            <span class="cart-icon">🛒</span>
+            <span class="cart-count hidden" id="cartCount">0</span>
+        </button>
+
+        <div class="cart-drawer" id="cartDrawer" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Shopping cart">
+            <div class="cart-header">
+                <h3>Your Cart</h3>
+                <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <p class="cart-empty">Your cart is empty. Add something delicious!</p>
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total-row">
+                    <span>Total</span>
+                    <span id="cartTotal">R0.00</span>
+                </div>
+                <a href="enquiry.html" class="btn cart-checkout" id="cartCheckout">Proceed to Order</a>
+                <button class="cart-clear" id="cartClear">Clear cart</button>
+            </div>
+        </div>
+        <div class="cart-backdrop" id="cartBackdrop" hidden></div>
+
+        <!-- Leaflet Map Script (CARTO Tiles to prevent blocking) -->
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+            var mapEl = document.getElementById("route-map");
+            if (!mapEl) return;
+
+            // Rosebank Mall coordinates
+            var rosebank = [-26.1467, 28.0411];
+
+            // Initialize map
+            var map = L.map("route-map").setView(rosebank, 16);
+
+            // Use CARTO tiles instead of OpenStreetMap to avoid "Access Blocked" errors
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+                subdomains: 'abcd',
+                maxZoom: 20
+            }).addTo(map);
+
+            // Custom Bakery Pin
+            L.marker(rosebank, {
+              icon: L.divIcon({
+                className: "custom-rosebank-marker",
+                html: '<div style="background:#B5541A;width:16px;height:16px;border-radius:50%;border:2px solid white;box-shadow:0 0 6px rgba(0,0,0,0.5);"></div>',
+                iconSize: [16, 16],
+                iconAnchor: [8, 8]
+              })
+            })
+              .addTo(map)
+              .bindPopup("<b>Dillon's Bakery</b><br>Rosebank Mall, Johannesburg")
+              .openPopup();
+          });
+        </script>
+    </body>
+</html>

@@ -11,5 +11,21 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Close menu when a link is tapped 
-mobileNav.
-}
+mobileNav.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () {
+        mobileNav.classList.remove("open");
+        hamburger.classList.remove("active");
+        hamburger.setAttribute("aria-expanded", "false");
+    });
+});
+});
+
+//Close menu if window resizes above mobile breakpoint
+window.addEventListener("resize", function () {
+    if (window.innerWidth > 800) {
+        mobileNav.classList.remove("open");
+        hamburger.classList.remove("active");
+        hamburger.setAttribute("aria-expanded", "false");
+        }   
+        });
+    });
