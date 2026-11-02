@@ -1,22 +1,22 @@
-<!DOCTYPE html>
+   ,<!DOCTYPE html>
 <html>
     <head>
         <title>Dillon's Bakery</title>
         <link rel="stylesheet" href="css/style.css">
+        <script src="script.js"></script>
         <link rel="icon" type="image/png" href="img/logo.png">
     </head>
     <body>
         <header class="site-header">
             <a href="index.html" class="brand">
                 <img src="images/business logo.png" alt="Dillon's Bakery logo">
-                <h1>Dillon's Bakery</h1>
             </a>
             <nav class="primary-nav">
-                <a href="index.html" class="active">Homepage</a>
-                <a href="assets/about.html">About us</a>
-                <a href="assets/services.html">Menu</a>
-                <a href="assets/enquiry.html">Order Now</a>
-                <a href="assets/contact.html">Contact us</a>
+                <span><a href="index.html" class="active">Homepage</a></span>
+                <span><a href="assets/about.html">About us</a></span>
+                <span><a href="assets/services.html">Menu</a></span>
+                <span><a href="assets/enquiry.html">Order Now</a></span>
+                <span><a href="assets/contact.html">Contact us</a></span>
             </nav>
         </header>
 
@@ -84,6 +84,23 @@
                     <a href="assets/services.html">Menu</a>
                     <a href="assets/enquiry.html">Order Now</a>
                     <a href="assets/contact.html">Contact us</a>
+                </div>
+                <!--Hamburger button (mobil only)-->
+                <button class="hamburger" id="hamburgerBtn" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <!--Mobile nav(hidden by default)-->
+                <nav class="mobil-nav" id="=mobileNav">
+                    <a href="index.html" class="active">Homepage</a>
+                    <a href="assets/about.html">About Us</a>
+                    <a href="assets/services.html">Menu</a>
+                    <a href="assets/enquiry.html">Order Now</a>
+                    <a href="assets/contact.html">Contact Us</a>
+                </nav>
+                
                 </div>
                 <div>
                     <h4>Socials</h4>

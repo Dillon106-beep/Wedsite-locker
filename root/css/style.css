@@ -118,6 +118,41 @@ img {
   text-decoration: none;
 }
 
+/*hamburger Menu*/
+.hamburger{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 30px;
+height: 22px;
+background: none;
+border: none;
+cursor: pointer;
+padding: 0;
+} 
+
+.hamburger span{
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #5c3825;
+  border-radius:5px ;
+  transition: 0.3 ease;
+}
+
+/*Turn hamburger into x */
+.hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-10px) rotate(-45deg);
+}
+
 .btn-outline-light:hover {
   background-color: var(--cream);
   color: var(--espresso);
@@ -551,4 +586,92 @@ hr.divider {
 
 .order-form button {
   margin-top: 25px;
+}
+
+/* --Hamburger-- */
+.hamburger{
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0%;
+  z-index: 100;
+}
+
+.hamburger{
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--cream);
+  border-radius: 5px;
+  transition: transform 0.3 ease, opacity 0.2s ease;
+}
+
+/* --Turn hamburger into an X when active--- */
+.hamburger.active span:nth-child(1) {
+  transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: translateY(-10px) rotate(-45deg);
+}
+
+/* --Mobile nav panel-- */
+.mobile-nav{
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  background-color: var(--espresso);
+  padding: 10px 0 20px;
+  border-top: 1px solid rgba(250,243, 230, 0,2);
+  margin-top: 8px;
+}
+
+.mobile-nav a {
+  color: var(--cream);
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(250, 243, 230, 0,2);
+}
+
+.mobile-nav a:hover,
+.mobile-nav a.active {
+  border-bottom: 2px solid var(--rust);
+  padding-left: 6px;
+}
+
+.mobile-nav.open {
+  display: flex;
+}
+
+/* --Mobile Breakpoint-- */
+@media (max-width: 800px) {
+  .site-header{
+    padding: 15px 20px;
+  }
+
+  .primary-nav{
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .brand h1 {
+    font-size: 1.6rem;
+  }
+
+  .brand img {
+    height: 45px;
+  }
 }
